@@ -107,7 +107,7 @@ public class Options {
             interval = AlarmManager.INTERVAL_DAY * 7;
         } else
         if (every.equals("month")) {
-            interval = AlarmManager.INTERVAL_DAY * 31;
+            interval = AlarmManager.INTERVAL_DAY * 28;
         } else
         if (every.equals("year")) {
             interval = AlarmManager.INTERVAL_DAY * 365;
